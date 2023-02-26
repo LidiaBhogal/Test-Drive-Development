@@ -8,6 +8,7 @@ super(name, id, email)
         
     }
     getRole(){return'Manager'}
+    getOfficeNumber(){return this.officeNumber}
 }
 
 module.exports = Manager;
